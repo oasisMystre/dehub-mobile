@@ -1,0 +1,17 @@
+{
+  "name": "dehub",
+  "displayName": "dehub",
+  "plugins": [
+    "expo-router"
+  ],
+  "web": {
+    "bundler": "metro"
+  },
+  "expo": {
+    "scheme": "dehub",
+    "userInterfaceStyle": "automatic",
+    "plugins": [
+      "expo-secure-store"
+    ]
+  }
+}
